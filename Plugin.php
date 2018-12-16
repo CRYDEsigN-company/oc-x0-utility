@@ -8,7 +8,7 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'ToolBox',
+            'name'        => 'Utility',
             'description' => 'Вспомогательные плагины',
             'author'      => 'x0pavel',
             'icon'        => 'icon-flash'
