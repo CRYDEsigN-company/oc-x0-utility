@@ -112,9 +112,6 @@ class UrlParams extends ComponentBase {
         /* 
         404 
         */
-        if($this->property('nullParams') == '404'){
-            return $this->er404();
-        }    
         if($this->property('notAnnouncedAction') == '404' && $UPH->notAnnounced) {
             return $this->er404();
         }
